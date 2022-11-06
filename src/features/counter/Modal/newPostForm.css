@@ -1,0 +1,28 @@
+.textArea_wrapper {
+  border-color: #c4c4c4;
+  border-radius: 4px;
+  width: 87%;
+  font-size: 16px;
+  padding-right: 14px;
+  padding-left:  14px;
+  padding-top : 8px
+  
+}
+
+.post_input_title{
+  margin-bottom: 4px !important;
+  
+}
+
+
+.post_input_error{
+  margin-bottom: 4px ;
+  color: red;
+}
+
+
+
+.submitBtn{
+  display: block;
+  float: right;
+}

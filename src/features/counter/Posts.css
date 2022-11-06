@@ -1,0 +1,43 @@
+@use "@material/card";
+
+@include card.core-styles;
+
+.my-card-content {
+  padding: 16px;
+}
+
+.my-card {
+  height: 350px;
+  width: 350px;
+}
+
+.newPostBtn {
+  position: absolute !important;
+  right: 20px !important;
+  top: 15px !important;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.MuiPaper-root .action_button {
+  display: none;
+}
+
+.MuiPaper-root:hover .action_button {
+  color: gray;
+  display: block;
+  position: absolute;
+  right: 4px;
+}
+
+.action_button svg:hover {
+  color: #3f51b5;
+}
+
+.action_button svg {
+  cursor: pointer;
+}
